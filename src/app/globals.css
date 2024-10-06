@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar{
+  background-color: blueviolet;
+  font-family: 'Times New Roman', Times, serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: sticky;
+  top:20px;
+}
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  font-size: 35px;
+  color: aqua;
+}
+li{
+  list-style: none;
+  display: inline-block;
+;
+}
+li a{
+  color: aliceblue;
+  font-size: 25px;
+  margin-right: 25px;
+}
+.home{
+  background-color: darkturquoise;
+  height: 600px;
+}
+h1{
+  font-size: 30px;
+  color: blue;
+  text-align: center;
+}
+p{
+  font-size: 25px;
+}
+.about{
+  background-color: aqua;
+}
+.cont{
+  background-color: aqua;
+} 
+button{
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+button:hover{
+  color: aqua;
+}
